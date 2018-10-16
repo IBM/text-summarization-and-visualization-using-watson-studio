@@ -134,6 +134,29 @@ There are several ways to execute the code cells in your notebook:
     
 ## 7. Analyze the results
 
+As we can see in the below image, the important words in the corpus have been highlighted which will help in inference of the data. Wordclouds are beautifully insightful with pros and cons. Word clouds can allow you to share back results from research in a way that does not require an understanding of the technicalities. Some of the pros are below.
+* It reveals the essential. 
+* They delight and provide emotional connection. 
+* They are fast & engaging. 
+As observed, skilled interpretation is what provides the beautiful insights. 
+![](https://github.com/IBM/text-summarization-and-visualization-using-watson-studio/blob/master/doc/source/images/results_1.png)
+
+Latent Dirichlet Allocation (LDA) is a probabilistic model with interpretable topics.  
+
+
+
+![](https://github.com/IBM/text-summarization-and-visualization-using-watson-studio/blob/master/doc/source/images/results_2.png)
+
+
+
+# Troubleshooting
+
+[See DEBUGGING.md.](DEBUGGING.md)
+
+# License
+
+[Apache 2.0](LICENSE)
+
 
 
 
