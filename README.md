@@ -68,11 +68,11 @@ Sign up for IBM's [Watson Studio](http://dataplatform.ibm.com/).
 
 Click on New project and select Data Science as per below.
 
-![](https://github.com/IBM/text-summarization-and-visualization-using-watson-studio/blob/master/doc/source/images/new_project.PNG)
+![](https://github.com/IBM/text-summarization-and-visualization-using-watson-studio/blob/master/doc/source/images/new_project.png)
 
 Define the project by giving a Name and hit 'Create'.
 
-![](https://github.com/IBM/text-summarization-and-visualization-using-watson-studio/blob/master/doc/source/images/define_project.PNG)
+![](https://github.com/IBM/text-summarization-and-visualization-using-watson-studio/blob/master/doc/source/images/define_project.png)
 
 By creating a project in Watson Studio a free tier ``Object Storage`` service will be created in your IBM Cloud account.
 
