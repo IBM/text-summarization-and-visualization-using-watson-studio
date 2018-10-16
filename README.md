@@ -18,12 +18,13 @@ When the reader has completed this code pattern, they will understand how to:
 
 # Architecture Diagram
 
-![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/architecture.png)
+![](https://github.com/IBM/text-summarization-and-visualization-using-watson-studio/blob/master/doc/source/images/architecture.png)
 
-1.
-2.
-3.
-4.
+1.  User logs into Watson Studio, creates an instance which includes object storage.
+2.  User uploads the data file to the object storage.
+3.  User imports a Jupyter Notebook from the URL.
+4.  User runs the processing techniques & creates a statistical model for topics in the notebook.
+5.  User explores the visualization in the notebook and can export the output to object storage.
 
 ## Included components
 
@@ -53,7 +54,7 @@ described in detail below.
 1. [Create a new Watson Studio project](#2-create-a-new-watson-studio-project)
 1. [Create the notebook](#3-create-the-notebook)
 1. [Add the data](#4-add-the-data)
-1. [Insert the dataframe](#5-insert-the-dataframe)
+1. [Insert the credentials](#5-insert-the-credentials)
 1. [Run the notebook](#6-run-the-notebook)
 1. [Analyze the results](#7-analyze-the-results)
 
@@ -67,13 +68,13 @@ Sign up for IBM's [Watson Studio](http://dataplatform.ibm.com/).
 
 Click on New project and select Data Science as per below.
 
-![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/new_project.PNG)
+![](https://github.com/IBM/text-summarization-and-visualization-using-watson-studio/blob/master/doc/source/images/new_project.PNG)
 
 Define the project by giving a Name and hit 'Create'.
 
-![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/define_project.PNG)
+![](https://github.com/IBM/text-summarization-and-visualization-using-watson-studio/blob/master/doc/source/images/define_project.PNG)
 
-By creating a project in Watson Studio a free tier ``Object Storage`` service will be created in your IBM Cloud account. Choose the storage type as Cloud Object Storage for this code pattern.
+By creating a project in Watson Studio a free tier ``Object Storage`` service will be created in your IBM Cloud account.
 
 ## 3. Create the notebook
 
@@ -82,32 +83,32 @@ By creating a project in Watson Studio a free tier ``Object Storage`` service wi
 * Select the `From URL` tab.
 * Enter a name for the notebook.
 * Optionally, enter a description for the notebook.
-* Enter this Notebook URL: https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/notebook/Fraud_Detection.ipynb
+* Enter this Notebook URL: https://github.com/IBM/text-summarization-and-visualization-using-watson-studio/blob/master/notebook/Text_Summarize_and_Visualize.ipynb
 * Select the runtime (1vCPU and 4GBRAM)
 * Click the `Create` button.
 
-![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/create_notebook.PNG)
+![](https://github.com/IBM/text-summarization-and-visualization-using-watson-studio/blob/master/doc/source/images/create_notebook.PNG)
 
 ## 4. Add the data
 
-[Clone this repo](https://github.com/IBM/xgboost-smote-detect-fraud)
-Navigate to [data](https://github.com/IBM/xgboost-smote-detect-fraud/tree/master/data) and save the file on the disk.
+[Clone this repo](https://github.com/IBM/text-summarization-and-visualization-using-watson-studio)
+Navigate to [data](https://github.com/IBM/text-summarization-and-visualization-using-watson-studio/tree/master/data) and save the file on the disk.
 
 Use `Find and Add Data` (look for the `10/01` icon)
 and its `Files` tab. From there you can click
-`browse` and add data files from your computer.
+`browse` and add data file from your computer.
 
-![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/add_file.png)
+![](https://github.com/IBM/text-summarization-and-visualization-using-watson-studio/blob/master/doc/source/images/add_file.png)
 
 Note: The data file is in the `data` directory
 
-## 5. Insert the DataFrame
+## 5. Insert the credentials
 
 Select the cell below `Read the Data` section in the notebook.
 
 Use `Find and Add Data` (look for the `10/01` icon) and its `Files` tab. You should see the file names uploaded earlier. Make sure your active cell is the empty one created earlier. Select `Insert to code` (below your file name). Click `Insert credentials` from drop down menu.
 
-![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/insert%20df.PNG)
+![](https://github.com/IBM/text-summarization-and-visualization-using-watson-studio/blob/master/doc/source/images/insert_cred.png)
 
 ## 6. Run the notebook
 
