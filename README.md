@@ -1,6 +1,6 @@
 # Text summarization and visualization using watson studio
 
-We will demonstrate a methodology to summarize & visualize text using Watson Studio. Text summarization is the process of creating a short and coherent version of a longer document. There are two methods to summarize the text, extractive & abstractive summarization. We will focus on extractive summarization which involves the selection of phrases and sentences from the source document to make up the new summary. Techniques involve ranking the relevance of phrases in order to choose only those most relevant to the meaning of the source. Some of the advantages of text summarization are below as per the [source](https://machinelearningmastery.com/gentle-introduction-text-summarization) 
+We will demonstrate a methodology to summarize & visualize text using Watson Studio. Text summarization is the process of creating a short and coherent version of a longer document. There are two methods to summarize the text, extractive & abstractive summarization. We will focus on extractive summarization which involves the selection of phrases and sentences from the source document to make up the new summary. Techniques involve ranking the relevance of phrases in order to choose only those most relevant to the meaning of the source. Some of the advantages of text summarization are below as per the [source.](https://machinelearningmastery.com/gentle-introduction-text-summarization) 
 
 `Summaries reduce reading time.
 When researching documents, summaries make the selection process easier.
