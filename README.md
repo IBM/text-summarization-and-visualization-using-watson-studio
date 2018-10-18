@@ -42,7 +42,7 @@ When the reader has completed this code pattern, they will understand how to:
 
 # Watch the Video
 
-[![](http://img.youtube.com/vi/LZYnfrnkmwk/0.jpg)](https://youtu.be/LZYnfrnkmwk)
+[![]()]()
 
 
 # Steps
