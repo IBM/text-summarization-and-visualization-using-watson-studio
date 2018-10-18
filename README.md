@@ -43,7 +43,7 @@ When the reader has completed this code pattern, they will understand how to:
 
 # Watch the Video
 
-[![]()]()
+[![](http://img.youtube.com/vi/m98Jjpqi45I/0.jpg)](https://youtu.be/m98Jjpqi45I)
 
 
 # Steps
@@ -93,7 +93,7 @@ By creating a project in Watson Studio a free tier ``Object Storage`` service wi
 ## 4. Add the data
 
 [Clone this repo](https://github.com/IBM/text-summarization-and-visualization-using-watson-studio)
-Navigate to [data](https://github.com/IBM/text-summarization-and-visualization-using-watson-studio/tree/master/data) and save the file on the disk.
+Navigate to [data](https://github.com/IBM/text-summarization-and-visualization-using-watson-studio/tree/master/data) and save the file on the disk. The data has been extracted from one of the movie review websites online.
 
 Use `Find and Add Data` (look for the `10/01` icon)
 and its `Files` tab. From there you can click
