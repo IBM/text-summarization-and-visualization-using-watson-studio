@@ -1,6 +1,6 @@
 # Text summarization and visualization using watson studio
 
-We will demonstrate a methodology to summarize & visualize text using Watson Studio. Text summarization is the process of creating a short and coherent version of a longer document. There are two methods to summarize the text, extractive & abstractive summarization. We will focus on extractive summarization which involves the selection of phrases and sentences from the source document to make up the new summary. Techniques involve ranking the relevance of phrases in order to choose only those most relevant to the meaning of the source. Some of the advantages of text summarization are below as per the [source.](https://machinelearningmastery.com/gentle-introduction-text-summarization). We will also demonstrate different methods to visualize the data which can aid in providing quick peek of the data.
+We will demonstrate a methodology to summarize & visualize text using Watson Studio. Text summarization is the process of creating a short and coherent version of a longer document. There are two methods to summarize the text, extractive & abstractive summarization. We will focus on extractive summarization which involves the selection of phrases and sentences from the source document to make up the new summary. Techniques involve ranking the relevance of phrases in order to choose only those most relevant to the meaning of the source. Some of the advantages of text summarization are below as per the [source](https://machinelearningmastery.com/gentle-introduction-text-summarization). We will also demonstrate different methods to visualize the data which can aid in providing quick peek of the data.
 
 `Summaries reduce reading time.
 When researching documents, summaries make the selection process easier.
@@ -14,7 +14,8 @@ When the reader has completed this code pattern, they will understand how to:
 * Quickly summarize the text from documents & news feeds.
 * Create topic modeling on the text to extract important topics.
 * Create visualizations for better understanding of the data.
-* Analyze the text for further processing to generate recommendations.
+* Interpret the summary and visualization of the data.
+* Analyze the text for further processing to generate recommendations or taking informed decisions.
 
 # Architecture Diagram
 
