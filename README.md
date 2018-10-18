@@ -146,6 +146,7 @@ Latent Dirichlet Allocation (LDA) is a probabilistic model with interpretable to
 
 ![](https://github.com/IBM/text-summarization-and-visualization-using-watson-studio/blob/master/doc/source/images/results_2.png)
 
+As we can see from the topics, the data is referring to Mission Impossible Fallout movie. Skilled interpretation is needed to an extent for consuming the insights from the data.
 
 # Troubleshooting
 
