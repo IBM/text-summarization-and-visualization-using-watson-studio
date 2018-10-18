@@ -1,13 +1,11 @@
 # Text summarization and visualization using watson studio
 
-We will demonstrate a methodology to summarize & visualize text using Watson Studio. Text summarization is the process of creating a short and coherent version of a longer document. There are two methods to summarize the text, extractive & abstractive summarization. We will focus on extractive summarization which involves the selection of phrases and sentences from the source document to make up the new summary. Techniques involve ranking the relevance of phrases in order to choose only those most relevant to the meaning of the source. Some of the advantages of text summarization are below as per the [source](https://machinelearningmastery.com/gentle-introduction-text-summarization). We will also demonstrate different methods to visualize the data which can aid in providing quick peek of the data.
+We will demonstrate a methodology to summarize & visualize text using Watson Studio. Text summarization is the process of creating a short and coherent version of a longer document. There are two methods to summarize the text, extractive & abstractive summarization. We will focus on extractive summarization which involves the selection of phrases and sentences from the source document to make up the new summary. Techniques involve ranking the relevance of phrases in order to choose only those most relevant to the meaning of the source. Some of the advantages of text summarization are below. We will also demonstrate different methods to visualize the data which can aid in providing quick peek of the data.
 
-`Summaries reduce reading time.
-When researching documents, summaries make the selection process easier.
-Text summarization improves the effectiveness of indexing.
-Text summarization algorithms are less biased than human summarizers.
-Personalized summaries are useful in question-answering systems as they provide personalized information.
-Using automatic or semi-automatic summarization systems enables commercial abstract services to increase the number of texts they are able to process.`
+`Summaries reduce reading time. When researching documents, summaries make the selection process easier.Text summarization improves the effectiveness of indexing.Text summarization algorithms are less biased than human summarizers.
+Personalized summaries are useful in question-answering systems as they provide personalized information.Using automatic or semi-automatic summarization systems enables commercial abstract services to increase the number of texts they are able to process.`
+
+[A Brief about Text Summarization](https://machinelearningmastery.com/gentle-introduction-text-summarization)
 
 When the reader has completed this code pattern, they will understand how to:
 
@@ -40,6 +38,9 @@ When the reader has completed this code pattern, they will understand how to:
 * [Data Science](https://developer.ibm.com/code/technologies/data-science/): Systems and scientific methods to analyze structured and unstructured data in order to extract knowledge and insights.
 * [Analytics](https://developer.ibm.com/code/technologies/analytics/): Analytics delivers the value of data for the enterprise.
 * [Python](https://www.python.org/): Python is a programming language that lets you work more quickly and integrate your systems more effectively.
+* [Text Ranking](https://pypi.org/project/gensim/): Gensim is a free Python library designed to automatically extract semantic topics from documents. The gensim implementation is based on the popular TextRank algorithm.
+* [Word Cloud](https://pypi.org/project/wordcloud/): It is used for identifying and visualizing the key words in the document.
+* [pyLDAvis](https://pypi.org/project/pyLDAvis/) : It is a Python library for interactive topic model visualization.
 
 # Watch the Video
 
@@ -134,6 +135,10 @@ There are several ways to execute the code cells in your notebook:
     continue executing all cells that follow.
     
 ## 7. Analyze the results
+
+Lets look at the summarization of the document. We can observe that all the key pointers are included in the summary. The text ranking algorithm has produced good results. 
+
+`Before its release, Mission: Impossible Fallout has been known for two things: the fact that it\'s the first direct sequel in the series and THAT injury to Tom Cruise.Let\'s get the injury out of the way first.', "The shot is in the movie and it will make you wince because you know the context, but otherwise you don't really notice any difference as the stunt in question is just the latest in a long line of deathdefying activities featuring Cruise.What makes more of an impact on the sixth movie in the series is its connection to the previous movie, Rogue Nation, with the return of the villainous Solomon Lane (played creepily again by Sean Harris) and his nefarious Syndicate, who are again threatening the world.With the addition of Ethan Hunt's former wife Julia (Michelle Monaghan) from the third movie, Fallout is immediately given more depth than previous outings and the stakes feel higher, with Ethan Hunt (Cruise) haunted by his past mistakes.", "At times, even IMAX doesn't feel big enough to contain it.Putting aside the direct connection to the previous movie and the series' first returning director in Christopher McQuarrie, it's pretty much business as usual for Ethan and the IMF.", "There's no possible way this can go wrong, right?What follows is the usual, winning Mission: Impossible mix of spy games, double \\x96 and triple \\x96 crosses, chases of all kinds and extended set pieces in various locations around the world.", "Of the newcomers, Henry Cavill has the biggest role and Fallout makes full use of his considerable frame with some muscular fights, while The Crown's Vanessa Kirby relishes her enigmatic White Widow role, even if she is underused.But you don't really come to a Mission: Impossible movie for the cast, you come for the action \\x96 and you will not be disappointed.`
 
 As we can see in the below image, the important words in the corpus have been highlighted which will help in inference of the data. Wordclouds are beautifully insightful with pros and cons. Word clouds can allow you to share back results from research in a way that does not require an understanding of the technicalities. Some of the pros are below.
 * It reveals the essential. 
