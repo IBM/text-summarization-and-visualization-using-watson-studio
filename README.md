@@ -139,14 +139,12 @@ As we can see in the below image, the important words in the corpus have been hi
 * They delight and provide emotional connection. 
 * They are fast & engaging. 
 As observed, skilled interpretation is what provides the beautiful insights. 
+
 ![](https://github.com/IBM/text-summarization-and-visualization-using-watson-studio/blob/master/doc/source/images/results_1.png)
 
-Latent Dirichlet Allocation (LDA) is a probabilistic model with interpretable topics.  
-
-
+Latent Dirichlet Allocation (LDA) is a probabilistic model with interpretable topics. Topic modeling is one of the most popular NLP techniques with several real-world applications such as dimensionality reduction, text summarization, recommendation engine, etc. To visualize our topics in a 2-dimensional space we will use the pyLDAvis library. This visualization is interactive in nature and displays topics along with the most relevant words.
 
 ![](https://github.com/IBM/text-summarization-and-visualization-using-watson-studio/blob/master/doc/source/images/results_2.png)
-
 
 
 # Troubleshooting
@@ -156,7 +154,3 @@ Latent Dirichlet Allocation (LDA) is a probabilistic model with interpretable to
 # License
 
 [Apache 2.0](LICENSE)
-
-
-
-
