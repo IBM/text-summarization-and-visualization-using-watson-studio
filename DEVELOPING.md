@@ -8,6 +8,7 @@ to start over from the top if anything seems to be missing.
 
 Setting credentials
 -------------------
+
 Credentials need to be added to the notebook to access some Bluemix services.
 The credentials are set near the top of the notebook to make it
 more obvious that they need to be set and also to make it more obvious that
@@ -15,7 +16,9 @@ you will be saving a notebook with credentials. You should not share your
 notebook with anyone that you would not share your credentials with
 unless you use the ``share`` feature with the ``Only text and output`` or
 ``All content excluding sensitive code cells`` option.Installing Python packages
---------------------------
+
+-------------------
+
 A notebook can use ```!pip install``` to install the Python packages
 from PyPI. You can follow this example if you decide to use additional Python
 packages in your notebook. Check the output to see that the install was
