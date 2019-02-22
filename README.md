@@ -40,7 +40,7 @@ When the reader has completed this code pattern, they will understand how to:
 * [Python](https://www.python.org/): Python is a programming language that lets you work more quickly and integrate your systems more effectively.
 * [Text Ranking](https://pypi.org/project/gensim/): Gensim is a free Python library designed to automatically extract semantic topics from documents. The gensim implementation is based on the popular TextRank algorithm.
 * [Word Cloud](https://pypi.org/project/wordcloud/): It is used for identifying and visualizing the key words in the document.
-* [pyLDAvis](https://pypi.org/project/pyLDAvis/) : It is a Python library for interactive topic model visualization.
+* [pyLDAvis](https://pypi.org/project/pyLDAvis/): It is a Python library for interactive topic model visualization.
 
 # Watch the Video
 
@@ -68,11 +68,11 @@ Sign up for IBM [**Cloud**](https://console.bluemix.net/). By clicking on create
 
 Sign up for IBM's [Watson Studio](http://dataplatform.ibm.com/). 
 
-Click on New project and select Data Science as per below.
+Click on `New project` and select `Data Science` as per below.
 
 ![](https://github.com/IBM/text-summarization-and-visualization-using-watson-studio/blob/master/doc/source/images/new_project.png)
 
-Define the project by giving a Name and hit 'Create'.
+Define the project by giving a Name and hit `Create`.
 
 ![](https://github.com/IBM/text-summarization-and-visualization-using-watson-studio/blob/master/doc/source/images/define_project.png)
 
@@ -108,7 +108,7 @@ Note: The data file is in the `data` directory
 
 Select the cell below `Read the Data` section in the notebook.
 
-Use `Find and Add Data` (look for the `10/01` icon) and its `Files` tab. You should see the file names uploaded earlier. Make sure your active cell is the empty one created earlier. Select `Insert to code` (below your file name). Click `Insert credentials` from drop down menu.
+Use `Find and Add Data` (look for the `10/01` icon) and its `Files` tab. You should see the file names uploaded earlier. Make sure your active cell is the empty one created earlier. Select `Insert to code` (below your file name). Click `Insert credentials` from the drop down menu.
 
 ![](https://github.com/IBM/text-summarization-and-visualization-using-watson-studio/blob/master/doc/source/images/insert_cred.png)
 
